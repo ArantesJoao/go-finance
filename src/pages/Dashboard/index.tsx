@@ -27,7 +27,7 @@ export interface DataListProps extends TransactionCardProps {
 }
 
 export function Dashboard() {
-  var data : Array<DataListProps> = [
+  var data: Array<DataListProps> = [
     {
       id: "1",
       type: "income",
@@ -89,7 +89,7 @@ export function Dashboard() {
           lastTransaction="Última entrada dia 13 de abril"
         />
         <HighlightCard
-          type="outgo"
+          type="outcome"
           title="Saídas"
           amount="R$1.259,00"
           lastTransaction="Última entrada dia 03 de abril"
