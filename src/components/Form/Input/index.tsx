@@ -3,10 +3,8 @@ import { TextInputProps } from "react-native";
 
 import { Container } from "./styles";
 
-type Props = TextInputProps
+type Props = TextInputProps;
 
-export function Input({...rest} : Props){
-  return(
-    <Container {...rest} />
-  );
+export function Input({ ...rest }: Props) {
+  return <Container placeholderTextColor="#969CB2" {...rest} />;
 }
